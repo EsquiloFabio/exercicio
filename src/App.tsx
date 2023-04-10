@@ -14,6 +14,7 @@ export default class app extends Component{
         {/*<Frag titulo="Cadastro" 
         subTitulo="Tela de cadastro de Prooduto"  />*/}
         {/*<ParImpar numero = {10} />*/}
+        
         <Familia>
           <Membro nome="Ana" sobrenome="Silva" />
           <Membro nome="Jose" sobrenome="Silva" />
