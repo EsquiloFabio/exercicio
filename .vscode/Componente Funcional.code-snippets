@@ -1,0 +1,20 @@
+{
+    "Componente Funcional":{
+        "scope": "javascript, typescript",
+        "prefix": "compfunc",
+        "body": [
+            "import React from 'react';",
+            "import padrao from '../estilo/padrao';",
+            "import { Text } from 'react-native';",
+            "",
+            "",
+            "export defaut (props: any) => {",
+            "return (",
+            "<Text> $1 </Text>",
+            ")",
+            "}"
+
+        ],
+        "description": "Log output tu console"
+    }
+}
