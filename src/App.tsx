@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, TextInput } from "react-native";
 import Simples from "./componentes/Simples";
 import Frag from "./componentes/Frag";
 import ParImpar from "./componentes/ParImpar";
@@ -9,6 +9,7 @@ import UsuarioLogado from "./componentes/UsuarioLogado";
 import Botao from "./componentes/Botao";
 import contador from "./componentes/contador";
 import Contador from "./componentes/contador";
+import DigiteSeuNome from "./componentes/DigiteSeuNome";
 
 export default class app extends Component{
 
@@ -31,10 +32,10 @@ export default class app extends Component{
         <UsuarioLogado usuario={{nome:'Henrique'}} />
         <UsuarioLogado usuario={{email:'hh23@email.com'}}/>
         <UsuarioLogado usuario={ null} />
-        <UsuarioLogado usuario={{}} />*/}
-        <Contador valorInicial= {50} />
-        
-        
+        <UsuarioLogado usuario={{}} />
+        <Contador valorInicial= {50} />*/}
+        <DigiteSeuNome />
+
 
       </View>
     );
