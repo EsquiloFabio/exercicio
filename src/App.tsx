@@ -10,6 +10,7 @@ import Botao from "./componentes/Botao";
 import contador from "./componentes/contador";
 import Contador from "./componentes/contador";
 import DigiteSeuNome from "./componentes/DigiteSeuNome";
+import CalculoIMC from "./componentes/CalculoIMC";
 
 export default class app extends Component{
 
@@ -32,9 +33,10 @@ export default class app extends Component{
         <UsuarioLogado usuario={{nome:'Henrique'}} />
         <UsuarioLogado usuario={{email:'hh23@email.com'}}/>
         <UsuarioLogado usuario={ null} />
-        <UsuarioLogado usuario={{}} />*/}
+        <UsuarioLogado usuario={{}} />
         <Contador valorInicial= {50} />
-        {/*<DigiteSeuNome />*/}
+        <DigiteSeuNome />*/}
+        <CalculoIMC/>
 
 
       </View>
