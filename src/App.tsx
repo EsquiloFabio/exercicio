@@ -11,6 +11,8 @@ import contador from "./componentes/contador";
 import Contador from "./componentes/contador";
 import DigiteSeuNome from "./componentes/DigiteSeuNome";
 import CalculoIMC from "./componentes/CalculoIMC";
+import DimensoesFixas from "./componentes/DimensoesFixas";
+import Mega from "./componentes/MegaSena/Mega";
 
 export default class app extends Component{
 
@@ -35,8 +37,10 @@ export default class app extends Component{
         <UsuarioLogado usuario={ null} />
         <UsuarioLogado usuario={{}} />
         <Contador valorInicial= {50} />
-        <DigiteSeuNome />*/}
+        <DigiteSeuNome />
         <CalculoIMC/>
+        <DimensoesFixas/>*/}
+        <Mega qtdeNumeros={7}/>
 
 
       </View>
