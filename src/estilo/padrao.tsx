@@ -18,6 +18,13 @@ export default  StyleSheet.create ({
         height: 40,
         margin: 12,
         borderWidth: 1,
+    },
+    center:{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        textAlign: "center",
+
     }
 })
 
